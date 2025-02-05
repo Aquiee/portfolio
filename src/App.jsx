@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import emailjs from "../node_modules/@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 export default function App() {
     const [activeSection, setActiveSection] = useState("home");
